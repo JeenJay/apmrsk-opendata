@@ -1,0 +1,23 @@
+{
+    "standardversion": "http://opendata.gosmonitor.ru/standard/3.0",
+    "identifier": "2618017120-subdivisions",
+    "title": "Перечень структурных подразделений администрации Предгорного муниципального района Ставропольского края",
+    "description": "Перечень отделов и управлений администрации Предгорного муниципального района Ставропольского края являющихся самомстоятельными юридическими лицами.",
+    "creator": "Администрация Предгорного муниципального района Ставропольского края",
+    "created": "2014-06-16",
+    "modified": "2015-06-05",
+    "subject": "Структурные подразделения, отделы, управления",
+    "format": "json",
+    "data": [{
+        "source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/data.json"
+    }],
+    "structure": [{
+        "source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure.json",
+        "created": "2014-06-16"
+    }],
+    "publisher": {
+        "name": "Усс Дмитрий Васильевич",
+        "phone": "+78796150664",
+        "email": "it-apmr@yandex.ru"
+    }
+}

@@ -1,0 +1,23 @@
+{
+	"standardversion":"http://opendata.gosmonitor.ru/standard/3.0",
+	"identifier":"0278058317-institutions",
+	"title":"Перечень подведомственных учреждений Минтруда РБ",
+	"description":"Перечень подведомственных учреждений Минтруда РБ, таких как центры занятости населения, межрайонные центры социальной помощи семье и детям и т. д., с контактной информацией.",
+	"creator":"Министерство труда и социальной защиты Республики Башкортостан",
+	"created":"2014-06-16",
+	"modified":"2015-12-08",
+	"subject":"Соцобслуживание населения, соцзащита, занятость населения, подведомственные учреждения, Башкортостан",
+	"format":"json",
+	"data": [{
+		"source":"http://opendata.mintrudrb.ru/institutions.json"
+	}],
+	"structure": [{
+			"source":"http://opendata.mintrudrb.ru/opendata-static/structure/institutions-2015-11-12.json",
+			"created":"2015-11-12"
+	}],
+	"publisher": {
+		"name":"Асия Рустэмовна Мамедова",
+		"phone":"+73472180753",
+		"mbox":"asin@bashzan.ru"
+	}
+}
