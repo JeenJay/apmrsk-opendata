@@ -1,7 +1,7 @@
-<?php
-	include '../inc/head.php';
-	include '../inc/header.php';
-?>
+	<?php
+		include '../inc/head.php';
+		include '../inc/header.php';
+	?>
 
 		<main>
 
@@ -102,15 +102,6 @@
                      return  '<li>' + labels[key] + ': ' + value + '</li>';
                 }
             }
-
-
-
-
-
-
-
-
-
 
         });
     </script>

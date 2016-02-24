@@ -227,3 +227,13 @@ ul.in--text {
 
 
 
+.license img {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+	.license span {
+		vertical-align: middle;
+		display: inline-block;
+		margin-left: 10px;
+	}

@@ -1,7 +1,7 @@
-<?php
-	include '../inc/head.php';
-	include '../inc/header.php';
-?>
+	<?php
+		include '../inc/head.php';
+		include '../inc/header.php';
+	?>
 
 		<main>
 
@@ -130,14 +130,14 @@
 
 						<div class="list-group">
 
-							<a href="parsed.php" class="list-group-item">
+							<a href="data.php" class="list-group-item">
 								<h4 class="list-group-item-heading"><i class="fa fa-fw fa-eye"></i> Посмотреть содержимое набора</h4>
-								<p class="list-group-item-text"><small>Данные представлены в человекочитаемом формате и адаптированы для использования</small></p>
+								<p class="list-group-item-text"><small>Данные адаптированы для использования</small></p>
 							</a><!-- /.list-group-item -->
 
-							<a href="data.php" class="list-group-item">
+							<a href="parsed.php" class="list-group-item">
 								<h4 class="list-group-item-heading"><i class="fa fa-fw fa-database"></i> Посмотреть выгрузку набора</h4>
-								<p class="list-group-item-text">Данные представляют собой </p>
+								<p class="list-group-item-text"><small>Данные не адаптированы для использования</small></p>
 							</a><!-- /.list-group-item -->
 
 						</div><!-- /.list-group -->
@@ -154,25 +154,9 @@
 
 						</div><!-- /.panel -->
 
-						<div class="panel panel-default">
-
-							<div class="panel-heading"><i class="fa fa-fw fa-cogs"></i> Техническая поддержка</div><!-- /.panel-heading -->
-
-							<div class="panel-body">
-
-								<div id="apmrsk__location"></div>
-
-								<address>
-									<p><strong>Отдел по&nbsp;муниципальным услугам и&nbsp;информатизации администрации Предгорного муниципального района Ставропольского края</strong></p>
-									<p>357350, Ставропольский край, Предгорный р-н, ст-ца Ессентукская, ул. Набережная, 5</p>
-									<p>Телефон/факс: <nobr>8 87961 5-06-64</nobr><br>Электронная почта: <a href="mailto:it-apmr@yandex.ru?subject=Открытые данные">it-apmr@yandex.ru</a></p>
-								</address>
-
-								<p><a href="#!" class="btn btn-lg btn-purple" data-toggle="modal" data-target="#feedback"><i class="fa fa-question-circle"></i> Задать вопрос</a></p>
-
-							</div><!-- /.panel-body -->
-
-						</div><!-- /.panel -->
+						<?php
+							include '../inc/sidebar/sidebar_support.html';
+						?>
 
 					</div><!-- /.col -->
 
@@ -183,7 +167,7 @@
 		</main>
 
 		<?php
-			include '../inc/feedback.html';
+			include '../inc/modals/modal_feedback.html';
 			include '../inc/scripts.html';
 			include '../inc/footer.php';
 		?>
