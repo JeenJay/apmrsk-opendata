@@ -15,36 +15,31 @@
 	},
 	"updating": "По мере изменений",
 	"data": {
-		"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/data.json",
+		"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/data-2016-01-30-structure-2016-01-30.json",
 		"format": "json",
-		"created": "2014-06-16",
+		"created": "2016-01-01",
 		"modified": {
-			"date": "2015-06-05",
+			"date": "2016-01-30",
 			"content": "Добавлена информация о должностях руководителей"
 		},
-		"previous": [{
-			"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/data.json"
-		},{
-			"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/data.json"
-		},{
-			"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/data.json"
-		},{
-			"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/data.json"
-		}]
+		"previous": [
+			"http://opendata.predgor-ray.ru/2618017120-subdivisions/data-2016-01-20-structure-2016-01-30.json",
+			"http://opendata.predgor-ray.ru/2618017120-subdivisions/data-2016-01-10-structure-2016-01-15.json",
+			"http://opendata.predgor-ray.ru/2618017120-subdivisions/data-2016-01-01-structure-2016-01-01.json"
+		]
 	},
 	"structure": {
-		"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure.json",
+		"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure-2016-01-30.json",
 		"format": "json",
-		"created": "2014-06-16",
+		"created": "2016-01-01",
 		"modified": {
-			"date": "2015-06-05",
+			"date": "2016-01-30",
 			"content": "Добавлено поле должность руководителя"
 		},
-		"previous": [{
-			"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure.json"
-		},{
-			"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure.json"
-		}]
+		"previous": [
+			"http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure-2016-01-15.json",
+			"http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure-2016-01-01.json"
+		]
 	},
 	"keywords": "структурные подразделения, отделы, управления",
 	"stavdart": {
