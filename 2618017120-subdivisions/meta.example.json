@@ -13,18 +13,32 @@
 		"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/data.json",
 		"format": "json",
 		"created": "2014-06-16",
-		"modified": "2015-06-05",
+		"modified": {
+			"date": "2015-06-05",
+			"content": "Добавлена информация о должностях руководителей"
+		},
 		"previous": [{
-			"source": null
+			"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/data.json"
+		},{
+			"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/data.json"
+		},{
+			"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/data.json"
+		},{
+			"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/data.json"
 		}]
 	},
 	"structure": {
 		"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure.json",
 		"format": "json",
 		"created": "2014-06-16",
-		"modified": "2015-06-05",
+		"modified": {
+			"date": "2015-06-05",
+			"content": "Добавлено поле должность руководителя"
+		},
 		"previous": [{
-			"source": null
+			"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure.json"
+		},{
+			"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure.json"
 		}]
 	},
 	"keywords": "структурные подразделения, отделы, управления",

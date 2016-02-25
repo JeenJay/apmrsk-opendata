@@ -158,6 +158,8 @@ table thead th {
 	/* empty */
 }
 
+
+
 .license {
 	margin-bottom: 0;
 }
@@ -171,4 +173,19 @@ table thead th {
 		.license span {
 			vertical-align: middle;
 			display: inline-block;
+		}
+
+.github--link {
+	margin-bottom: 0;
+	text-align: right;
+}
+
+	.github--link a {
+		color: #969696;
+		line-height: 28px;
+		font-size: 36px;
+	}
+	
+		.github--link a:hover {
+			color: #000;
 		}
