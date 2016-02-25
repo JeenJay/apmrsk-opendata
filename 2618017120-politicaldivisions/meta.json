@@ -1,23 +1,27 @@
 {
-	"standardversion":"http://opendata.gosmonitor.ru/standard/3.0",
-	"identifier":"0278058317-institutions",
-	"title":"Перечень подведомственных учреждений Минтруда РБ",
-	"description":"Перечень подведомственных учреждений Минтруда РБ, таких как центры занятости населения, межрайонные центры социальной помощи семье и детям и т. д., с контактной информацией.",
-	"creator":"Министерство труда и социальной защиты Республики Башкортостан",
-	"created":"2014-06-16",
-	"modified":"2015-12-08",
-	"subject":"Соцобслуживание населения, соцзащита, занятость населения, подведомственные учреждения, Башкортостан",
-	"format":"json",
+	"standardversion": "http://opendata.gosmonitor.ru/standard/3.0",
+	"identifier": "2618017120-politicaldivisions",
+	"title": "Административно-территориальное деление Предгорного района",
+	"description": "Административно-территориальное деление Предгорного муниципального района Ставропольского края",
+	"creator": "Администрация Предгорного муниципального района Ставропольского края",
+	"created": "20160101",
+	"modified": "20160101",
+	"subject": "муниципальное образование, сельсовет, населённый пункт",
+	"format": "json",
 	"data": [{
-		"source":"http://opendata.mintrudrb.ru/institutions.json"
+		"source": "http://opendata.predgor-ray.ru/2618017120-politicaldivisions/data-20160101T0000-strucrure-20160101T0000.json",
+		"created": "20160101T0000",
+		"provenance": "Первичная публикация",
+		"valid": "20160101",
+		"structure": "20160101T0000"
 	}],
 	"structure": [{
-			"source":"http://opendata.mintrudrb.ru/opendata-static/structure/institutions-2015-11-12.json",
-			"created":"2015-11-12"
+		"source": "http://opendata.predgor-ray.ru/2618017120-politicaldivisions/strucrure-20160101T0000.json",
+		"created": "20160101T0000"
 	}],
 	"publisher": {
-		"name":"Асия Рустэмовна Мамедова",
-		"phone":"+73472180753",
-		"mbox":"asin@bashzan.ru"
+		"name": "Усс Дмитрий Васильевич",
+		"phone": "+78796150664",
+		"mbox": "it-apmr@yandex.ru"
 	}
 }

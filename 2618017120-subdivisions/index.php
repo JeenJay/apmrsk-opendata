@@ -1,6 +1,6 @@
 	<?php
 		include '../inc/head.php';
-		include '../inc/header.php';
+		include '../inc/header.html';
 	?>
 
 		<main>
@@ -20,8 +20,11 @@
 
 				<div class="col-md-8">
 
-					<div class="table-responsive">
-						<table class="table table-striped table-hover">
+					<div class="table-responsive" about="/opendata/7712345678-showrooms" typeof="foaf:Document">
+
+						<div rel="dc:conformsTo" resource="http://opendata.gosmonitor.ru/standard/3.0"></div>
+
+						<table id="dataset__passport" class="table table-striped table-hover">
 							<thead>
 								<tr>
 									<th>№</th>
@@ -31,99 +34,155 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td>1.</td>
+									<td>1</td>
 									<td>Идентификационный номер</td>
-									<td>2618017120-subdivisions</td>
+									<td property="dc:identifier">2618017120-subdivisions</td>
 								</tr>
 								<tr>
-									<td>2.</td>
+									<td>2</td>
 									<td>Наименование набора данных</td>
-									<td>Перечень структурных подразделений и подведомственных учреждений администрации Предгорного муниципального района Ставропольского края</td>
+									<td property="dc:title">Перечень структурных подразделений и подведомственных учреждений</td>
 								</tr>
 								<tr>
-									<td>3.</td>
+									<td>3</td>
 									<td>Описание набора данных</td>
-									<td></td>
+									<td property="dc:description">Перечень структурных подразделений и подведомственных учреждений администрации Предгорного муниципального района Ставропольского края</td>
 								</tr>
 								<tr>
-									<td>4.</td>
+									<td>4</td>
 									<td>Владелец набора данных</td>
-									<td>Администрация Предгорного муниципального района Ставропольского края</td>
+									<td property="dc:creator">Администрация Предгорного муниципального района Ставропольского края</td>
 								</tr>
 								<tr>
-									<td>5.</td>
-									<td>Ответственное лицо</td>
-									<td>Усс Дмитрий Васильевич</td>
+									<td>5</td><td>Ответственное лицо</td><td rel="dc:publisher" resource="#publisher">
+										<span rel="dc:publisher" typeof="foaf:Person" about="#publisher" property="foaf:name">Усс Дмитрий Васильевич</span>
+									</td>
 								</tr>
 								<tr>
-									<td>6.</td>
+									<td>6</td>
 									<td>Телефон ответственного лица</td>
-									<td>+78796150664</td>
+									<td rel="dc:publisher" resource="#publisher">
+										<span typeof="foaf:Person" about="#publisher" property="foaf:phone" content="+7 87961 5-06-64">+7 87961 5-06-64</span>
+									</td>
 								</tr>
 								<tr>
-									<td>7.</td>
+									<td>7</td>
 									<td>Адрес электронной почты ответственного лица</td>
-									<td><a href="mailto:it-apmr@yandex.ru?subject=Открытые данные">it-apmr@yandex.ru</a></td>
+									<td rel="dc:publisher" resource="#publisher">
+										<a href="mailto:it-apmr@yandex.ru?subject=Открытые данные" typeof="foaf:Person" about="#publisher" property="foaf:mbox">it-apmr@yandex.ru</span>
+									</td>
 								</tr>
 								<tr>
-									<td>8.</td>
+									<td>8</td>
 									<td>Гиперсылка (URL) на набор</td>
-									<td><a href="#!">data-2015-12-28T09-59-structure-2013-09-10T14-22.json</a></td>
+									<td><a href="http://opendata.predgor-ray.ru/2618017120-subdivisions/data-20160130T0000-structure-20160130T0000.json">data-20160130T0000-structure-20160130T0000.json</a></td>
 								</tr>
 								<tr>
-									<td>9.</td>
+									<td>9</td>
 									<td>Формат данных</td>
-									<td>JSON</td>
+									<td property="dc:format" content="json">JSON</td>
 								</tr>
 								<tr>
-									<td>10.</td>
+									<td>10</td>
 									<td>Описание структуры набора данных</td>
-									<td><a href="#!">structure-2013-09-10T14-22.json</a></td>
+									<td><a href="http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure-20160130T0000.json">structure.xsd</a></td>
 								</tr>
 								<tr>
-									<td>11.</td>
+									<td>11</td>
 									<td>Дата первой публикации набора данных</td>
-									<td>10.09.2013</td>
+									<td property="dc:created" content="2016-01-01">01.01.2016</td>
 								</tr>
 								<tr>
-									<td>12.</td>
+									<td>12</td>
 									<td>Дата последнего внесения изменений</td>
-									<td>28.12.2015</td>
+									<td property="dc:modified" content="2016-01-30T00:00:00">30.06.2016</td>
 								</tr>
 								<tr>
-									<td>13.</td>
+									<td>13</td>
 									<td>Содержание последнего изменения</td>
-									<td>Обновление набора данных</td>
+									<td>Исправлены незначительные ошибки</td>
 								</tr>
 								<tr>
-									<td>14.</td>
+									<td>14</td>
 									<td>Периодичность актуализации набора данных</td>
-									<td>По мере изменений</td>
+									<td property="dc:valid" content="2016-01-30T00:00:00">30.06.2016</td>
 								</tr>
 								<tr>
-									<td>15.</td>
+									<td>15</td>
 									<td>Ключевые слова, соответствующие содержанию набора данных</td>
-									<td>структурные подразделения, отделы, управления</td>
+									<td property="dc:subject">структурное подразделене, отдел, управление</td>
 								</tr>
 								<tr>
-									<td>16.</td>
-									<td>Гиперссылки на версии набора данных</td>
-									<td></td>
+									<td>16</td>
+									<td>Гиперссылки (URL) на версии набора данных</td>
+									<td>
+										<a href="http://opendata.predgor-ray.ru/2618017120-subdivisions/data-20160115T0000-structure-20160130T0000.json">data-20160115T0000-structure-20160130T0000.json</a><br>
+										<a href="http://opendata.predgor-ray.ru/2618017120-subdivisions/data-20160101T0000-strucrure-20160101T0000.json">data-20160101T0000-strucrure-20160101T0000.json</a>
+									</td>
 								</tr>
 								<tr>
-									<td>17.</td>
-									<td>Гиперссылки на версии структуры набора данных</td>
-									<td></td>
-								</tr>
-								<tr>
-									<td>18.</td>
-									<td>Версия методических рекомендаций</td>
-									<td>3.0</td>
+									<td>17</td>
+									<td>Гиперссылки (URL) на версии структуры набора данных</td>
+									<td>
+										<a href="http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure-20160101T0000.json">strucrure-20160101T0000.json</a>
+									</td>
 								</tr>
 							</tbody>
 						</table>
+
+						<div rel="dc:source" resource="#data"></div>
+
 					</div>
 
+					<div typeof="dc:Collection" about="#data">
+
+						<div rel="dc:hasPart" resource="#data-20160130T0000">
+							<div typeof="foaf:Document" about="#data-20160130T0000">
+								<div property="dc:source" content="http://opendata.predgor-ray.ru/2618017120-subdivisions/data-20160130T0000-structure-20160130T0000.json"></div>
+								<div property="dc:created" content="2016-01-30"></div>
+								<div property="dc:provenance" content="Исправлены незначительные ошибки"></div>
+								<div rel="dc:conformsTo" resource="#structure-20130401T0000"></div>
+							</div>
+						</div>
+
+						<div rel="dc:hasPart" resource="#data-20160115T0000">
+							<div typeof="foaf:Document" about="#data-20160115T0000">
+								<div property="dc:source" content="http://opendata.predgor-ray.ru/2618017120-subdivisions/data-20160115T0000-structure-20160130T0000.json"></div>
+								<div property="dc:created" content="2016-01-15"></div>
+								<div property="dc:provenance" content="Добавлены должности руководитлей"></div>
+								<div rel="dc:conformsTo" resource="#structure-20130401T0000"></div>
+							</div>
+						</div>
+
+						<div rel="dc:hasPart" resource="#data-20160101T0000">
+							<div typeof="foaf:Document" about="#data-20160101T0000">
+								<div property="dc:source" content="http://opendata.predgor-ray.ru/2618017120-subdivisions/data-20160101T0000-strucrure-20160101T0000.json"></div>
+								<div property="dc:created" content="2016-01-01"></div>
+								<div property="dc:provenance" content="Первичная публикация"></div>
+								<div rel="dc:conformsTo" resource="#structure-20130401T0000"></div>
+							</div>
+						</div>
+
+					</div>
+
+					<div typeof="dc:Collection" about="#strucrure">
+
+						<div rel="dc:hasPart" resource="#strucrure-20160130T0000">
+							<div typeof="foaf:Document" about="#strucrure-20160130T0000">
+								<div property="dc:source" content="http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure-20160130T0000.json"></div>
+								<div property="dc:created" content="2016-01-30"></div>
+							</div>
+						</div>
+
+						<div rel="dc:hasPart" resource="#strucrure-20160101T0000">
+							<div typeof="foaf:Document" about="#strucrure-20160101T0000">
+								<div property="dc:source" content="http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure-20160101T0000.json"></div>
+								<div property="dc:created" content="2016-01-01"></div>
+							</div>
+						</div>
+					
+					</div>
+		
 				</div><!-- /.col -->
 
 				<div class="col-md-4">
@@ -169,6 +228,23 @@
 			include '../inc/footer.html';
 			include '../inc/scripts.html';
 		?>
+
+		<script>
+		// $(document).ready(function() {
+
+		// 	$.getJSON('meta.json', function(data) {
+
+		// 		$('#dataset__passport tbody tr td:nth-child(3)').append('<p>'+ data.identifier +'</p>');
+
+		// 		$.each(data, function(i, item) {
+		// 			console.log(item);
+		// 			$('#dataset__passport tbody tr td:nth-child(3)').append('<p>'+ item.identifier +'</p>');
+		// 		});
+
+		// 	});
+
+		// });
+		</script>
 
 	</body>
 

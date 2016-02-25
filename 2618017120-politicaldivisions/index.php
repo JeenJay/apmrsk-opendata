@@ -1,6 +1,6 @@
 <?php
 	include '../inc/head.php';
-	include '../inc/header.php';
+	include '../inc/header.html';
 ?>
 
 		<main>
@@ -113,11 +113,10 @@
 
 		</main>
 
-		</main>
-
 		<?php
+			include '../inc/modals/modal_feedback.html';
+			include '../inc/footer.html';
 			include '../inc/scripts.html';
-			include '../inc/footer.php';
 		?>
 
 	</body>

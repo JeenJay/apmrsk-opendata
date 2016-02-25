@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" dir="ltr" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
 
 	<head>
 
@@ -43,7 +43,6 @@
 		<![endif]-->
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
 		<link rel="stylesheet" href="../css/bootstrap.min.css?v=3.3.6">
 		<link rel="stylesheet" href="../css/awesome.bootstrap.checkbox.min.css?v=0.3.7">
 		<link rel="stylesheet" href="../css/common.css?v=1.0.0">

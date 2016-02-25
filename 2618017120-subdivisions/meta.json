@@ -1,35 +1,27 @@
 {
+	"standardversion": "http://opendata.gosmonitor.ru/standard/3.0",
 	"identifier": "2618017120-subdivisions",
-	"title": "Перечень структурных подразделений и подведомственных учреждений администрации Предгорного муниципального района Ставропольского края",
+	"title": "Перечень структурных подразделений и подведомственных учреждений",
 	"description": "Перечень структурных подразделений и подведомственных учреждений администрации Предгорного муниципального района Ставропольского края",
+	"creator": "Администрация Предгорного муниципального района Ставропольского края",
+	"created": "20160101",
+	"modified": "20160101",
+	"subject": "структурное подразделене, отдел, управление",
+	"format": "json",
+	"data": [{
+		"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/data-20160101T0000-strucrure-20160101T0000.json",
+		"created": "20160101T0000",
+		"provenance": "Первичная публикация",
+		"valid": "20160101",
+		"structure": "20160101T0000"
+	}],
+	"structure": [{
+		"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure-20160101T0000.json",
+		"created": "20160101T0000"
+	}],
 	"publisher": {
-		"owner": "Администрация Предгорного муниципального района Ставропольского края",
-		"responsible": "Усс Дмитрий Васильевич",
+		"name": "Усс Дмитрий Васильевич",
 		"phone": "+78796150664",
-		"email": "it-apmr@yandex.ru"
-	},
-	"updating": "По мере изменений",
-	"data": {
-		"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/data.json",
-		"format": "json",
-		"created": "2014-06-16",
-		"modified": "2015-06-05",
-		"previous": [{
-			"source": null
-		}]
-	},
-	"structure": {
-		"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure.json",
-		"format": "json",
-		"created": "2014-06-16",
-		"modified": "2015-06-05",
-		"previous": [{
-			"source": null
-		}]
-	},
-	"keywords": "структурные подразделения, отделы, управления",
-	"stavdart": {
-		"version": "3.0",
-		"url": "http://opendata.gosmonitor.ru/standard/3.0"
+		"mbox": "it-apmr@yandex.ru"
 	}
 }
