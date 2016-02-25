@@ -5,24 +5,23 @@
 
 		<main>
 
-			<div class="container">
+			<div class="row">
 
-				<div class="row">
+				<div class="col-md-12">
 
-					<div class="col-md-12">
+					<p class="lead">Паспорт набора открытых данных:</p>
+					<h2>&laquo;Перечень структурных подразделений и&nbsp;подведомственных учреждений администрации Предгорного муниципального района Ставропольского края&raquo;</h2>
 
-						<p class="lead">Паспорт набора открытых данных:</p>
-						<h2>&laquo;Перечень структурных подразделений и&nbsp;подведомственных учреждений администрации Предгорного муниципального района Ставропольского края&raquo;</h2>
+				</div><!-- /.col -->
 
-					</div><!-- /.col -->
+			</div><!-- /.row -->
 
-				</div><!-- /.row -->
+			<div class="row">
 
-				<div class="row">
+				<div class="col-md-8">
 
-					<div class="col-md-8">
-
-						<table class="table table-bordered table-striped table-hover">
+					<div class="table-responsive">
+						<table class="table table-striped table-hover">
 							<thead>
 								<tr>
 									<th>№</th>
@@ -123,53 +122,52 @@
 								</tr>
 							</tbody>
 						</table>
+					</div>
 
-					</div><!-- /.col -->
+				</div><!-- /.col -->
 
-					<div class="col-md-4">
+				<div class="col-md-4">
 
-						<div class="list-group">
+					<div class="list-group">
 
-							<a href="data.php" class="list-group-item">
-								<h4 class="list-group-item-heading"><i class="fa fa-fw fa-eye"></i> Посмотреть содержимое набора</h4>
-								<p class="list-group-item-text"><small>Данные адаптированы для использования</small></p>
-							</a><!-- /.list-group-item -->
+						<a href="data.php" class="list-group-item">
+							<h4 class="list-group-item-heading"><i class="fa fa-fw fa-list-ul"></i> Посмотреть содержимое набора</h4>
+							<p class="list-group-item-text"><small>Данные адаптированы для использования</small></p>
+						</a><!-- /.list-group-item -->
 
-							<a href="parsed.php" class="list-group-item">
-								<h4 class="list-group-item-heading"><i class="fa fa-fw fa-database"></i> Посмотреть выгрузку набора</h4>
-								<p class="list-group-item-text"><small>Данные не адаптированы для использования</small></p>
-							</a><!-- /.list-group-item -->
+						<a href="parsed.php" class="list-group-item">
+							<h4 class="list-group-item-heading"><i class="fa fa-fw fa-database"></i> Посмотреть выгрузку набора</h4>
+							<p class="list-group-item-text"><small>Данные не адаптированы для использования</small></p>
+						</a><!-- /.list-group-item -->
 
-						</div><!-- /.list-group -->
+					</div><!-- /.list-group -->
 
-						<div class="panel panel-default">
+					<div class="panel panel-default">
 
-							<div class="panel-heading"><i class="fa fa-fw fa-bar-chart"></i> Статистика</div><!-- /.panel-heading -->
+						<div class="panel-heading"><i class="fa fa-fw fa-bar-chart"></i> Статистика</div><!-- /.panel-heading -->
 
-							<ul class="list-group">
-								<li class="list-group-item"><span class="badge">278</span>Просмотры паспорта набора данных</li>
-								<li class="list-group-item"><span class="badge">134</span>Просмотры набора данных</li>
-								<li class="list-group-item"><span class="badge">51</span>Загрузки набора данных</li>
-							</ul><!-- /.list-group -->
+						<ul class="list-group">
+							<li class="list-group-item"><span class="badge">278</span>Просмотры паспорта набора данных</li>
+							<li class="list-group-item"><span class="badge">134</span>Просмотры набора данных</li>
+							<li class="list-group-item"><span class="badge">51</span>Загрузки набора данных</li>
+						</ul><!-- /.list-group -->
 
-						</div><!-- /.panel -->
+					</div><!-- /.panel -->
 
-						<?php
-							include '../inc/sidebar/sidebar_support.html';
-						?>
+					<?php
+						include '../inc/sidebar/sidebar_support.html';
+					?>
 
-					</div><!-- /.col -->
+				</div><!-- /.col -->
 
-				</div><!-- /.row -->
-
-			</div><!-- /.container -->
+			</div><!-- /.row -->
 
 		</main>
 
 		<?php
 			include '../inc/modals/modal_feedback.html';
+			include '../inc/footer.html';
 			include '../inc/scripts.html';
-			include '../inc/footer.php';
 		?>
 
 	</body>
