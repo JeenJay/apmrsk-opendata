@@ -50,6 +50,9 @@
 ```
 
 ### Пример человекочитаемого содержания паспорта набора данных
+
+HTML-разметка файла паспорта набора данных содержит микроразметку [RDFa](https://www.w3.org/TR/rdfa-syntax/) (Resource Description Framework in attributes).
+
 ```html
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" version="XHTML+RDFa 1.0" dir="ltr" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#">
@@ -213,4 +216,78 @@
 		</div>
 	</body>
 </html>
+```
+
+## Структура набора данных
+
+### Пример машиночитаемого содержания структуры набора данных
+
+```json
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "Перечень структурных подразделений и подведомственных учреждений",
+	"description": "Перечень структурных подразделений и подведомственных учреждений администрации Предгорного муниципального района Ставропольского края",
+	"type": "object",
+	"minItems": 1,
+	"items": {
+		"fullname": {
+			"description": "Полное наименование",
+			"type":"string"
+		},
+		"shortname": {
+			"description": "Краткое наименование",
+			"type":"string"
+		},
+		"head":	{
+			"description": "Руководитель",
+			"type":"object",
+			"name": {
+				"description": "Фамилия, имя, отчество",
+				"type":"string"
+			},
+			"post": {
+				"description": "Должность",
+				"type":"string"
+			}
+		},
+		"contacts": {
+			"description": "Контактная информация",
+			"type":"object",
+			"address": {
+				"description": "Почтовый адрес",
+				"type":"string"
+			},
+			"phone": {
+				"description": "Телефон",
+				"type":"string"
+			},
+			"email": {
+				"description": "Адрес Электронной почты",
+				"type":"string"
+			},
+			"website":{
+				"description": "Адрес веб-сайта",
+				"type":"string"
+			},
+			"required": ["address", "phone"]
+		},
+		"geo": {
+			"description": "Географические координаты",
+			"type":"object",
+			"latitude": {
+				"description": "Широта",
+				"type":"number"
+			},
+			"longitude": {
+				"description": "Долгота",
+				"type":"number"
+			}
+		},
+		"units": {
+			"description": "Подразделения",
+			"type":"array"
+		},
+		"required": ["fullname", "contacts"]
+	}
+}
 ```
