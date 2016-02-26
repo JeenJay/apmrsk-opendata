@@ -13,7 +13,7 @@
 	"creator": "Администрация Предгорного муниципального района Ставропольского края",
 	"created": "20160101",
 	"modified": "20160130",
-	"subject": "структурное подразделене, отдел, управление",
+	"subject": "структурное подразделение, отдел, управление",
 	"format": "json",
 	"data": [{
 		"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/data-20160130T0000-structure-20160130T0000.json",
@@ -24,7 +24,7 @@
 	},{
 		"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/data-20160115T0000-structure-20160130T0000.json",
 		"created": "20160115T0000",
-		"provenance": "Добавлены должности руководитлей",
+		"provenance": "Добавлены должности руководителей",
 		"valid": "20160115",
 		"structure": "20160130T0000"
 	},{
@@ -52,7 +52,7 @@
 ### Пример человекочитаемого содержания паспорта набора данных
 ```html
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" dir="ltr" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" version="XHTML+RDFa 1.0" dir="ltr" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#">
 	<head>
 		<title>Паспорт набора данных</title>
 	</head>
@@ -111,7 +111,9 @@
 					<tr>
 						<td>8</td>
 						<td>Гиперсылка (URL) на набор</td>
-						<td><a href="http://opendata.predgor-ray.ru/2618017120-subdivisions/data-20160130T0000-structure-20160130T0000.json">data-20160130T0000-structure-20160130T0000.json</a></td>
+						<td>
+							<a href="http://opendata.predgor-ray.ru/2618017120-subdivisions/data-20160130T0000-structure-20160130T0000.json">data-20160130T0000-structure-20160130T0000.json</a>
+						</td>
 					</tr>
 					<tr>
 						<td>9</td>
@@ -121,7 +123,9 @@
 					<tr>
 						<td>10</td>
 						<td>Описание структуры набора данных</td>
-						<td><a href="http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure-20160130T0000.json">structure.xsd</a></td>
+						<td>
+							<a href="http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure-20160130T0000.json">structure.xsd</a>
+						</td>
 					</tr>
 					<tr>
 						<td>11</td>
@@ -146,7 +150,7 @@
 					<tr>
 						<td>15</td>
 						<td>Ключевые слова, соответствующие содержанию набора данных</td>
-						<td property="dc:subject">структурное подразделене, отдел, управление</td>
+						<td property="dc:subject">структурное подразделение, отдел, управление</td>
 					</tr>
 					<tr>
 						<td>16</td>
@@ -180,7 +184,7 @@
 				<div typeof="foaf:Document" about="#data-20160115T0000">
 					<div property="dc:source" content="http://opendata.predgor-ray.ru/2618017120-subdivisions/data-20160115T0000-structure-20160130T0000.json"></div>
 					<div property="dc:created" content="2016-01-15"></div>
-					<div property="dc:provenance" content="Добавлены должности руководитлей"></div>
+					<div property="dc:provenance" content="Добавлены должности руководителей"></div>
 					<div rel="dc:conformsTo" resource="#structure-20130401T0000"></div>
 				</div>
 			</div>

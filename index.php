@@ -11,8 +11,10 @@
 
 					<h3>Наборы открытых данных</h3>
 
-					<!-- Start markup with schemas -->
-					<div class="table-responsive">
+					<div class="table-responsive" about="/opendata" typeof="dc:Collection">
+					
+						<div rel="dc:conformsTo" resource="http://opendata.gosmonitor.ru/standard/3.0"></div>
+					
 						<table class="table table-bordered">
 
 							<thead>
@@ -22,25 +24,22 @@
 								</tr>
 							</thead>
 
-							<tbody typeof="dc:Collection" about="opendata">
-
-								<div rel="dc:conformsTo" resource="http://opendata.gosmonitor.ru/standard/3.0"></div>
-
-								<tr rel="dc:hasPart" resource="2618017120-politicaldivisions">
-									<td>1.</td>
-									<td typeof="foaf:Document" about="2618017120-politicaldivisions" property="dc:title" content="Административно-территориальное деление Предгорного муниципального района Ставропольского края"><a href="2618017120-politicaldivisions/">Административно-территориальное деление Предгорного муниципального района Ставропольского края</a></td>
+							<tbody>
+								<tr rel="dc:hasPart">
+									<td>1</td>
+									<td typeof="foaf:Document" about="/opendata/2618017120-politicaldivisions" property="dc:title" content="Административно-территориальное деление Предгорного муниципального района Ставропольского края"><a href="/opendata/2618017120-politicaldivisions">Административно-территориальное деление Предгорного муниципального района Ставропольского края</a></td>
 								</tr>
-								<tr rel="dc:hasPart" resource="2618017120-subdivisions">
-									<td>2.</td>
-									<td typeof="foaf:Document" about="2618017120-subdivisions" property="dc:title" content="Перечень структурных подразделений и подведомственных учреждений администрации Предгорного муниципального района Ставропольского края"><a href="2618017120-subdivisions/">Перечень структурных подразделений и подведомственных учреждений администрации Предгорного муниципального района Ставропольского края</a></td>
+								<tr rel="dc:hasPart">
+									<td>2</td>
+									<td typeof="foaf:Document" about="/opendata/2618017120-politicaldivisions" property="dc:title" content="Перечень структурных подразделений и подведомственных учреждений администрации Предгорного муниципального района Ставропольского края"><a href="/opendata/2618017120-politicaldivisions">Перечень структурных подразделений и подведомственных учреждений администрации Предгорного муниципального района Ставропольского края</a></td>
 								</tr>
 							</tbody>
 
 						</table>
+					
 					</div>
-					<!-- End markup with schemas -->
 
-					<p><b>Файловое представление:</b> <a href="#!">opendata.predgor-ray.ru/list.json</a></p>
+					<p><b>Файловое представление:</b> <a href="list.json">opendata.predgor-ray.ru/list.json</a></p>
 
 					<hr>
 

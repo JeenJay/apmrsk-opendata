@@ -110,7 +110,7 @@
 								<tr>
 									<td>15</td>
 									<td>Ключевые слова, соответствующие содержанию набора данных</td>
-									<td property="dc:subject">структурное подразделене, отдел, управление</td>
+									<td property="dc:subject">структурное подразделение, отдел, управление</td>
 								</tr>
 								<tr>
 									<td>16</td>
@@ -189,12 +189,12 @@
 
 					<div class="list-group">
 
-						<a href="data.php" class="list-group-item">
+						<a href="data.php" class="list-group-item disabled">
 							<h4 class="list-group-item-heading"><i class="fa fa-fw fa-list-ul"></i> Посмотреть содержимое набора</h4>
 							<p class="list-group-item-text"><small>Данные адаптированы для использования</small></p>
 						</a><!-- /.list-group-item -->
 
-						<a href="parsed.php" class="list-group-item">
+						<a href="parsed.php" class="list-group-item disabled">
 							<h4 class="list-group-item-heading"><i class="fa fa-fw fa-database"></i> Посмотреть выгрузку набора</h4>
 							<p class="list-group-item-text"><small>Данные не адаптированы для использования</small></p>
 						</a><!-- /.list-group-item -->
@@ -206,9 +206,9 @@
 						<div class="panel-heading"><i class="fa fa-fw fa-bar-chart"></i> Статистика</div><!-- /.panel-heading -->
 
 						<ul class="list-group">
-							<li class="list-group-item"><span class="badge">278</span>Просмотры паспорта набора данных</li>
-							<li class="list-group-item"><span class="badge">134</span>Просмотры набора данных</li>
-							<li class="list-group-item"><span class="badge">51</span>Загрузки набора данных</li>
+							<li class="list-group-item"><span class="badge">0</span>Просмотры паспорта набора данных</li>
+							<li class="list-group-item"><span class="badge">0</span>Просмотры набора данных</li>
+							<li class="list-group-item"><span class="badge">0</span>Загрузки набора данных</li>
 						</ul><!-- /.list-group -->
 
 					</div><!-- /.panel -->
