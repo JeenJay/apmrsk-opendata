@@ -8,7 +8,7 @@
 	},{
 		"identifier": "2618017120-subdivisions",
 		"title": "Перечень структурных подразделений и подведомственных учреждений администрации Предгорного муниципального района Ставропольского края",
-		"link": "http://opendata.predgor-ray.ru/2618017120-subdivisions/meta.csv",
+		"link": "http://opendata.predgor-ray.ru/2618017120-subdivisions/meta.json",
 		"format": "json"
 	}]
 }

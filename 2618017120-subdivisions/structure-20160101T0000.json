@@ -1,0 +1,46 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "Showrooms",
+	"description": "Showrooms.",
+	"type": "array",
+	"minItems": 1,
+	"items": {
+		"description": "Administrative district.",
+		"type": "object",
+		"properties": {
+			"name": {
+				"description": "Administrative district name.",
+				"type":"string"
+			},
+			"showroom": {
+				"description": "List of showrooms.",
+				"type": "array",
+				"minItems": 1,
+				"items": {
+					"description": "Showroom.",
+					"type": "object",
+					"properties": {
+						"name": {
+							"description": "Name of showroom.",
+							"type":"string"
+						},
+						"area": {
+							"description": "Municipal area of showroom.",
+							"type": "string"
+						},
+						"address": {
+							"description": "Street, building, structure (if any), where showroom is located.",
+							"type": "string"
+						},
+						"telephone": {
+							"description": "Contact phone numbers of showroom in format (xxx) yyy-yy-yy, separated by \";\", where \"xxx\" is phone area code.",
+							"type": "string"
+						}
+					},
+					"required": ["name", "area", "address", "telephone"]
+				}
+			}
+		},
+		"required": ["name", "showroom"]
+	}
+}
