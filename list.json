@@ -1,0 +1,14 @@
+{
+"standardversion": "http://opendata.gosmonitor.ru/standard/3.0",
+	"meta": [{
+		"identifier": "2618017120-politicaldivisions",
+		"title": "Административно-территориальное деление Предгорного муниципального района Ставропольского края",
+		"link": "http://opendata.predgor-ray.ru/2618017120-politicaldivisions/meta.json",
+		"format": "json"
+	},{
+		"identifier": "2618017120-subdivisions",
+		"title": "Перечень структурных подразделений и подведомственных учреждений администрации Предгорного муниципального района Ставропольского края",
+		"link": "http://opendata.predgor-ray.ru/2618017120-subdivisions/meta.csv",
+		"format": "json"
+	}]
+}
