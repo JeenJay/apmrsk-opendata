@@ -4,24 +4,24 @@
 	"title": "Перечень структурных подразделений и подведомственных учреждений",
 	"description": "Перечень структурных подразделений и подведомственных учреждений администрации Предгорного муниципального района Ставропольского края",
 	"creator": "Администрация Предгорного муниципального района Ставропольского края",
-	"created": "20160101",
-	"modified": "20160101",
+	"created": "20160229",
+	"modified": "20160229",
 	"subject": "структурное подразделение, отдел, управление",
 	"format": "json",
 	"data": [{
-		"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/data-20160101T0000-strucrure-20160101T0000.json",
-		"created": "20160101T0000",
+		"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/data-20160229T0000-structure-20160229T0000.json",
+		"created": "20160229T0000",
 		"provenance": "Первичная публикация",
-		"valid": "20160101",
-		"structure": "20160101T0000"
+		"valid": "20160229",
+		"structure": "20160229T0000"
 	}],
 	"structure": [{
-		"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure-20160101T0000.json",
-		"created": "20160101T0000"
+		"source": "http://opendata.predgor-ray.ru/2618017120-subdivisions/structure-20160229T0000.json",
+		"created": "20160229T0000"
 	}],
 	"publisher": {
 		"name": "Усс Дмитрий Васильевич",
 		"phone": "+78796150664",
-		"mbox": "it-apmr@yandex.ru"
+		"email": "it-apmr@yandex.ru"
 	}
 }

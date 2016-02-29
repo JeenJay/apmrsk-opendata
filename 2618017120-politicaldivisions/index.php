@@ -1,115 +1,197 @@
-<?php
-	include '../inc/head.php';
-	include '../inc/header.html';
-?>
+	<?php
+		include '../inc/head.php';
+		include '../inc/header.html';
+	?>
 
 		<main>
 
-			<h2>Паспорт набора открытых данных:<br><em>"Административно-территориальное деление Предгорного муниципального района Ставропольского края"</em></h2>
+			<div class="row">
 
-			<br><br><a href="full_parsed_data.php">Full parsed data</a><br><br>
+				<div class="col-md-12">
 
-			<table border="1">
-				<thead>
-					<tr>
-						<th>№</th>
-						<th>Характеристика</th>
-						<th>Значение характеристики</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>1.</td>
-						<td>Идентификационный номер</td>
-						<td>2618017120-subdivisions</td>
-					</tr>
-					<tr>
-						<td>2.</td>
-						<td>Наименование набора данных</td>
-						<td>Административно-территориальное деление Предгорного муниципального района Ставропольского края</td>
-					</tr>
-					<tr>
-						<td>3.</td>
-						<td>Описание набора данных</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td>4.</td>
-						<td>Владелец набора данных</td>
-						<td>Администрация Предгорного муниципального района Ставропольского края</td>
-					</tr>
-					<tr>
-						<td>5.</td>
-						<td>Ответственное лицо</td>
-						<td>Усс Дмитрий Васильевич</td>
-					</tr>
-					<tr>
-						<td>6.</td>
-						<td>Телефон ответственного лица</td>
-						<td>+78796150664</td>
-					</tr>
-					<tr>
-						<td>7.</td>
-						<td>Адрес электронной почты ответственного лица</td>
-						<td>it-apmr@yandex.ru</td>
-					</tr>
-					<tr>
-						<td>8.</td>
-						<td>Гиперсылка (URL) на набор</td>
-						<td>data-2015-12-28T09-59-structure-2013-09-10T14-22.json</td>
-					</tr>
-					<tr>
-						<td>9.</td>
-						<td>Формат данных</td>
-						<td>JSON</td>
-					</tr>
-					<tr>
-						<td>10.</td>
-						<td>Описание структуры набора данных</td>
-						<td>structure-2013-09-10T14-22.csv</td>
-					</tr>
-					<tr>
-						<td>11.</td>
-						<td>Дата первой публикации набора данных</td>
-						<td>10.09.2013</td>
-					</tr>
-					<tr>
-						<td>12.</td>
-						<td>Дата последнего внесения изменений</td>
-						<td>28.12.2015</td>
-					</tr>
-					<tr>
-						<td>13.</td>
-						<td>Содержание последнего изменения</td>
-						<td>Обновление набора данных</td>
-					</tr>
-					<tr>
-						<td>14.</td>
-						<td>Периодичность актуализации набора данных</td>
-						<td>По мере изменений</td>
-					</tr>
-					<tr>
-						<td>15.</td>
-						<td>Ключевые слова, соответствующие содержанию набора данных</td>
-						<td>структурные подразделения, отделы, управления</td>
-					</tr>
-					<tr>
-						<td>16.</td>
-						<td>Гиперссылки на версии набора данных</td>
-						<td>data-2014-12-18T11-44-structure-2013-09-10T14-22.csv</td>
-					</tr>
-					<tr>
-						<td>17.</td>
-						<td>Гиперссылки на версии структуры набора данных</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td>18.</td>
-						<td>Версия методических рекомендаций</td>
-						<td>3.0</td>
-					</tr>
-				</tbody>
-			</table>
+					<p class="lead">Паспорт набора открытых данных:</p>
+					<h2>&laquo;Административно-территориальное деление Предгорного муниципального района Ставропольского края&raquo;</h2>
+
+				</div><!-- /.col -->
+
+			</div><!-- /.row -->
+
+			<div class="row">
+
+				<div class="col-md-8">
+
+					<div class="table-responsive" about="/2618017120-politicaldivisions" typeof="foaf:Document">
+
+						<div rel="dc:conformsTo" resource="http://opendata.gosmonitor.ru/standard/3.0"></div>
+
+						<table id="dataset__passport" class="table table-striped table-hover">
+							<thead>
+								<tr>
+									<th>&#8470;<br><nobr>п/п</nobr></th>
+									<th>Характеристика</th>
+									<th>Значение характеристики</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1.</td>
+									<td>Идентификационный номер</td>
+									<td property="dc:identifier">2618017120-politicaldivisions</td>
+								</tr>
+								<tr>
+									<td>2.</td>
+									<td>Наименование набора данных</td>
+									<td property="dc:title">Административно-территориальное деление Предгорного района</td>
+								</tr>
+								<tr>
+									<td>3.</td>
+									<td>Описание набора данных</td>
+									<td property="dc:description">Административно-территориальное деление Предгорного муниципального района Ставропольского края</td>
+								</tr>
+								<tr>
+									<td>4.</td>
+									<td>Владелец набора данных</td>
+									<td property="dc:creator">Администрация Предгорного муниципального района Ставропольского края</td>
+								</tr>
+								<tr>
+									<td>5.</td>
+									<td>Ответственное лицо</td><td rel="dc:publisher" resource="#publisher">
+										<span rel="dc:publisher" typeof="foaf:Person" about="#publisher" property="foaf:name">Усс Дмитрий Васильевич</span>
+									</td>
+								</tr>
+								<tr>
+									<td>6.</td>
+									<td>Телефон ответственного лица</td>
+									<td rel="dc:publisher" resource="#publisher">
+										<span typeof="foaf:Person" about="#publisher" property="foaf:phone" content="+7 87961 5-06-64">+7 87961 5-06-64</span>
+									</td>
+								</tr>
+								<tr>
+									<td>7.</td>
+									<td>Адрес электронной почты ответственного лица</td>
+									<td rel="dc:publisher" resource="#publisher">
+										<a href="mailto:it-apmr@yandex.ru?subject=Открытые данные" typeof="foaf:Person" about="#publisher" property="foaf:mbox">it-apmr@yandex.ru</span>
+									</td>
+								</tr>
+								<tr>
+									<td>8.</td>
+									<td>Гиперсылка (URL) на набор</td>
+									<td><a href="http://opendata.predgor-ray.ru/2618017120-politicaldivisions/data-20160229T0000-structure-20160229T0000.json">data-20160229T0000-structure-20160229T0000.json</a></td>
+								</tr>
+								<tr>
+									<td>9.</td>
+									<td>Формат данных</td>
+									<td property="dc:format" content="json">JSON</td>
+								</tr>
+								<tr>
+									<td>10.</td>
+									<td>Описание структуры набора данных</td>
+									<td><a href="http://opendata.predgor-ray.ru/2618017120-politicaldivisions/strucrure-20160229T0000.json">strucrure-20160229T0000.json</a></td>
+								</tr>
+								<tr>
+									<td>11.</td>
+									<td>Дата первой публикации набора данных</td>
+									<td property="dc:created" content="2016-02-29">29.02.2016</td>
+								</tr>
+								<tr>
+									<td>12.</td>
+									<td>Дата последнего внесения изменений</td>
+									<td property="dc:modified" content="2016-02-29T00:00:00">29.02.2016</td>
+								</tr>
+								<tr>
+									<td>13.</td>
+									<td>Содержание последнего изменения</td>
+									<td>Первичная публикация</td>
+								</tr>
+								<tr>
+									<td>14.</td>
+									<td>Периодичность актуализации набора данных</td>
+									<td property="dc:valid" content="2016-02-29T00:00:00">По мере изменений</td>
+								</tr>
+								<tr>
+									<td>15.</td>
+									<td>Ключевые слова, соответствующие содержанию набора данных</td>
+									<td property="dc:subject">муниципальное образование, сельсовет, населённый пункт</td>
+								</tr>
+								<tr>
+									<td>16.</td>
+									<td>Гиперссылки на версии набора данных</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>17.</td>
+									<td>Гиперссылки на версии структуры набора данных</td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<div rel="dc:source" resource="#data"></div>
+
+					</div>
+
+					<div typeof="dc:Collection" about="#data">
+
+						<div rel="dc:hasPart" resource="#data-20160229T0000">
+							<div typeof="foaf:Document" about="#data-20160229T0000">
+								<div property="dc:source" content="http://opendata.predgor-ray.ru/2618017120-politicaldivisions/data-20160229T0000-structure-20160229T0000.json"></div>
+								<div property="dc:created" content="2016-02-29"></div>
+								<div property="dc:provenance" content="Исправлены незначительные ошибки"></div>
+								<div rel="dc:conformsTo" resource="#structure-20130401T0000"></div>
+							</div>
+						</div>
+
+					</div>
+
+					<div typeof="dc:Collection" about="#strucrure">
+
+						<div rel="dc:hasPart" resource="#strucrure-20160229T0000">
+							<div typeof="foaf:Document" about="#strucrure-20160229T0000">
+								<div property="dc:source" content="http://opendata.predgor-ray.ru/2618017120-politicaldivisions/strucrure-20160229T0000.json"></div>
+								<div property="dc:created" content="2016-02-29"></div>
+							</div>
+						</div>
+					
+					</div>
+		
+				</div><!-- /.col -->
+
+				<div class="col-md-4">
+
+					<div class="list-group">
+
+						<a href="data.php" class="list-group-item disabled">
+							<h4 class="list-group-item-heading"><i class="fa fa-fw fa-list-ul"></i> Посмотреть содержимое набора</h4>
+							<p class="list-group-item-text"><small>Данные адаптированы для использования</small></p>
+						</a><!-- /.list-group-item -->
+
+						<a href="parsed.php" class="list-group-item disabled">
+							<h4 class="list-group-item-heading"><i class="fa fa-fw fa-database"></i> Посмотреть выгрузку набора</h4>
+							<p class="list-group-item-text"><small>Данные не адаптированы для использования</small></p>
+						</a><!-- /.list-group-item -->
+
+					</div><!-- /.list-group -->
+
+					<div class="panel panel-default">
+
+						<div class="panel-heading"><i class="fa fa-fw fa-bar-chart"></i> Статистика</div><!-- /.panel-heading -->
+
+						<ul class="list-group">
+							<li class="list-group-item"><span class="badge">0</span>Просмотры паспорта набора данных</li>
+							<li class="list-group-item"><span class="badge">0</span>Загрузки паспорта набора данных</li>
+							<li class="list-group-item"><span class="badge">0</span>Просмотры набора данных</li>
+							<li class="list-group-item"><span class="badge">0</span>Загрузки набора данных</li>
+						</ul><!-- /.list-group -->
+
+					</div><!-- /.panel -->
+
+					<?php
+						include '../inc/sidebar/sidebar_support.html';
+					?>
+
+				</div><!-- /.col -->
+
+			</div><!-- /.row -->
 
 		</main>
 

@@ -44,14 +44,14 @@
 	"publisher": {
 		"name": "Усс Дмитрий Васильевич",
 		"phone": "+78796150664",
-		"mbox": "it-apmr@yandex.ru"
+		"email": "it-apmr@yandex.ru"
 	}
 }
 ```
 
 ### Пример человекочитаемого содержания паспорта набора данных
 
-HTML-разметка файла паспорта набора данных содержит микроразметку [RDFa](https://www.w3.org/TR/rdfa-syntax/) (Resource Description Framework in attributes).
+HTML-разметка файла паспорта набора данных, содержит микроразметку [RDFa](https://www.w3.org/TR/rdfa-syntax/) (Resource Description Framework in attributes).
 
 ```html
 <!DOCTYPE html>
@@ -61,7 +61,7 @@ HTML-разметка файла паспорта набора данных со
 	</head>
 	<body>
 		<h1>Паспорт набора данных &laquo;Перечень структурных подразделений и подведомственных учреждений администрации Предгорного муниципального района Ставропольского края&raquo;</h1>
-		<div about="/opendata/7712345678-showrooms" typeof="foaf:Document">
+		<div about="/2618017120-subdivisions" typeof="foaf:Document">
 			<div rel="dc:conformsTo" resource="http://opendata.gosmonitor.ru/standard/3.0"></div>
 			<table>
 				<thead>
@@ -93,7 +93,8 @@ HTML-разметка файла паспорта набора данных со
 						<td property="dc:creator">Администрация Предгорного муниципального района Ставропольского края</td>
 					</tr>
 					<tr>
-						<td>5</td><td>Ответственное лицо</td><td rel="dc:publisher" resource="#publisher">
+						<td>5</td>
+						<td>Ответственное лицо</td><td rel="dc:publisher" resource="#publisher">
 							<span rel="dc:publisher" typeof="foaf:Person" about="#publisher" property="foaf:name">Усс Дмитрий Васильевич</span>
 						</td>
 					</tr>
@@ -127,7 +128,7 @@ HTML-разметка файла паспорта набора данных со
 						<td>10</td>
 						<td>Описание структуры набора данных</td>
 						<td>
-							<a href="http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure-20160130T0000.json">structure.xsd</a>
+							<a href="http://opendata.predgor-ray.ru/2618017120-subdivisions/strucrure-20160130T0000.json">strucrure-20160130T0000.json</a>
 						</td>
 					</tr>
 					<tr>
@@ -148,7 +149,7 @@ HTML-разметка файла паспорта набора данных со
 					<tr>
 						<td>14</td>
 						<td>Периодичность актуализации набора данных</td>
-						<td property="dc:valid" content="2016-01-30T00:00:00">30.06.2016</td>
+						<td property="dc:valid" content="2016-01-30T00:00:00">По мере изменений</td>
 					</tr>
 					<tr>
 						<td>15</td>
@@ -241,46 +242,52 @@ HTML-разметка файла паспорта набора данных со
 		"head":	{
 			"description": "Руководитель",
 			"type":"object",
-			"name": {
-				"description": "Фамилия, имя, отчество",
-				"type":"string"
-			},
-			"post": {
-				"description": "Должность",
-				"type":"string"
+			"content": {
+				"name": {
+					"description": "Фамилия, имя, отчество",
+					"type":"string"
+				},
+				"post": {
+					"description": "Должность",
+					"type":"string"
+				}
 			}
 		},
 		"contacts": {
 			"description": "Контактная информация",
 			"type":"object",
-			"address": {
-				"description": "Почтовый адрес",
-				"type":"string"
-			},
-			"phone": {
-				"description": "Телефон",
-				"type":"string"
-			},
-			"email": {
-				"description": "Адрес Электронной почты",
-				"type":"string"
-			},
-			"website":{
-				"description": "Адрес веб-сайта",
-				"type":"string"
+			"content": {
+				"address": {
+					"description": "Почтовый адрес",
+					"type":"string"
+				},
+				"phone": {
+					"description": "Телефон",
+					"type":"string"
+				},
+				"email": {
+					"description": "Адрес электронной почты",
+					"type":"string"
+				},
+				"website":{
+					"description": "Адрес веб-сайта",
+					"type":"string"
+				}
 			},
 			"required": ["address", "phone"]
 		},
 		"geo": {
 			"description": "Географические координаты",
 			"type":"object",
-			"latitude": {
-				"description": "Широта",
-				"type":"number"
-			},
-			"longitude": {
-				"description": "Долгота",
-				"type":"number"
+			"content": {
+				"latitude": {
+					"description": "Широта",
+					"type": "number"
+				},
+				"longitude": {
+					"description": "Долгота",
+					"type":"number"
+				}
 			}
 		},
 		"units": {
