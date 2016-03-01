@@ -44,7 +44,6 @@
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="/css/bootstrap.min.css?v=3.3.6">
-		<link rel="stylesheet" href="/css/awesome.bootstrap.checkbox.min.css?v=0.3.7">
 		<link rel="stylesheet" href="/css/common.css?v=1.0.0">
 
 		<title>Открытые данные администрации Предгорного муниципального района Ставропольского края</title>
