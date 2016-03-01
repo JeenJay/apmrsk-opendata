@@ -23,18 +23,14 @@
 					<h3>Наборы открытых данных</h3>
 
 					<div class="table-responsive" about="/opendata" typeof="dc:Collection">
-					
 						<div rel="dc:conformsTo" resource="http://opendata.gosmonitor.ru/standard/3.0"></div>
-					
-						<table class="table" id="">
-
+						<table id="datasets__list" class="table">
 							<thead>
 								<tr>
 									<th>&#8470;<br><nobr>п/п</nobr></th>
 									<th>Название и&nbsp;ссылка на&nbsp;страницу паспорта набора открытых данных</th>
 								</tr>
 							</thead>
-
 							<tbody>
 								<tr rel="dc:hasPart">
 									<td>1.</td>
@@ -45,26 +41,25 @@
 									<td typeof="foaf:Document" about="/2618017120-subdivisions" property="dc:title" content="Перечень структурных подразделений и подведомственных учреждений администрации Предгорного муниципального района Ставропольского края"><a href="/2618017120-subdivisions">Перечень структурных подразделений и подведомственных учреждений администрации Предгорного муниципального района Ставропольского края</a></td>
 								</tr>
 							</tbody>
-
 						</table>
-					
-					</div>
+					</div><!-- /.table-responsive -->
 
 					<div class="row">
 						<div class="col-md-6">
 							<p><b>Файловое представление:</b> <a href="list.json">opendata.predgor-ray.ru/list.json</a></p>
 							<p>Вышеуказанные наборы данных также <a href="http://data.gov.ru/administraciya-predgornogo-municipalnogo-rayona-stavropolskogo-kraya">опубликованы</a> на&nbsp;<a href="http://data.gov.ru">Портале открытых данных Российской Федерации</a>.</p>
-						</div>
-						<div class="col-md-6"><p>Перечень паспортов наборов открытых данных и&nbsp;все наборы открытых данных для автоматизированной обработки представлены в&nbsp;формате <a href="http://json.org/json-ru.html">JavaScript Object Notation</a> (JSON).</p></div>
-					</div>
+						</div><!-- /.col -->
+						<div class="col-md-6">
+							<p>Перечень паспортов наборов открытых данных и&nbsp;все наборы открытых данных для автоматизированной обработки представлены в&nbsp;формате <a href="http://json.org/json-ru.html">JavaScript Object Notation</a> (JSON).</p>
+						</div><!-- /.col -->
+					</div><!-- /.row -->
 
 					<hr>
 
 					<h3>Статистическая информация</h3>
 
 					<div class="table-responsive">
-						<table class="table">
-
+						<table id="datasets__stats" class="table">
 							<thead>
 								<tr>
 									<th>&#8470;<br><nobr>п/п</nobr></th>
@@ -76,7 +71,6 @@
 									<th>Количество загрузок набора</th>
 								</tr>
 							</thead>
-
 							<tbody>
 								<tr>
 									<td>1.</td>
@@ -97,13 +91,12 @@
 									<td>0</td>
 								</tr>
 							</tbody>
-
 						</table>
-					</div>
+					</div><!-- /.table-responsive -->
 
-				</div>
+				</div><!-- /.col -->
 
-			</div>
+			</div><!-- /.row -->
 
 		</main>
 
