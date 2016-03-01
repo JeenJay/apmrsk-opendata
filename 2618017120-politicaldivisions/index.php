@@ -158,34 +158,9 @@
 
 				<div class="col-md-4">
 
-					<div class="list-group">
-
-						<a href="data.php" class="list-group-item disabled">
-							<h4 class="list-group-item-heading"><i class="fa fa-fw fa-list-ul"></i> Посмотреть содержимое набора</h4>
-							<p class="list-group-item-text"><small>Данные адаптированы для использования</small></p>
-						</a><!-- /.list-group-item -->
-
-						<a href="parsed.php" class="list-group-item disabled">
-							<h4 class="list-group-item-heading"><i class="fa fa-fw fa-database"></i> Посмотреть выгрузку набора</h4>
-							<p class="list-group-item-text"><small>Данные не адаптированы для использования</small></p>
-						</a><!-- /.list-group-item -->
-
-					</div><!-- /.list-group -->
-
-					<div class="panel panel-default">
-
-						<div class="panel-heading"><i class="fa fa-fw fa-bar-chart"></i> Статистика</div><!-- /.panel-heading -->
-
-						<ul class="list-group">
-							<li class="list-group-item"><span class="badge">0</span>Просмотры паспорта набора данных</li>
-							<li class="list-group-item"><span class="badge">0</span>Загрузки паспорта набора данных</li>
-							<li class="list-group-item"><span class="badge">0</span>Просмотры набора данных</li>
-							<li class="list-group-item"><span class="badge">0</span>Загрузки набора данных</li>
-						</ul><!-- /.list-group -->
-
-					</div><!-- /.panel -->
-
 					<?php
+						include '../inc/sidebar/sidebar_unload.html';
+						include '../inc/sidebar/sidebar_stats.php';
 						include '../inc/sidebar/sidebar_support.html';
 					?>
 
