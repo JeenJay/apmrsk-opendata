@@ -3,10 +3,10 @@
 	"title": "Административно-территориальное деление Предгорного района",
 	"description": "Административно-территориальное деление Предгорного муниципального района Ставропольского края",
 	"type": "array",
-	"minItems": 15,
+	"minitems": 15,
 	"items": {
 		"name": {
-			"description": "Наименование муниципальног образования",
+			"description": "Наименование муниципального образования",
 			"type":"string"
 		},
 		"info": {
@@ -60,8 +60,10 @@
 									"type":"number"
 								}
 							}
-						}
-					}
+						},
+						"required": ["address", "phone"]
+					},
+					"required": ["content"]
 				},
 				"schedule": {
 					"description": "Режим работы",
@@ -86,8 +88,10 @@
 						"reception": {
 							"description": "Дни приема граждан",
 							"type":"string"
-						}
-					}
+						},
+						"required": ["working", "time", "break"]
+					},
+					"required": ["content"]
 				},
 				"head": {
 					"description": "Руководитель",
@@ -100,12 +104,16 @@
 						"post": {
 							"description": "Должность",
 							"type":"string"
-						}
-					}
-				}
-			}
+						},
+						"required": ["name", "post"]
+					},
+					"required": ["content"]
+				},
+				"required": ["name", "contacts", "schedule", "head"]
+			},
+			"required": ["content"]
 		},
-		"settlements" {
+		"settlements": {
 			"description": "Населённые пункты",
 			"type":"array",
 			"content": {
@@ -114,7 +122,7 @@
 					"type":"string"
 				},
 				"population": {
-					"description": "Население",
+					"description": "Население (чел.)",
 					"type":"number"
 				},
 				"geo": {
@@ -135,5 +143,6 @@
 			},
 			"required": ["content"]
 		}
-	}
+	},
+	"required": ["name", "autonomy", "settlements"]
 }

@@ -3,7 +3,7 @@
 	"title": "Перечень структурных подразделений и подведомственных учреждений",
 	"description": "Перечень структурных подразделений и подведомственных учреждений администрации Предгорного муниципального района Ставропольского края",
 	"type": "object",
-	"minItems": 1,
+	"minitems": 1,
 	"items": {
 		"fullname": {
 			"description": "Полное наименование",
@@ -24,8 +24,10 @@
 				"post": {
 					"description": "Должность",
 					"type":"string"
-				}
-			}
+				},
+				"required": ["name", "post"]
+			},
+			"required": ["content"]
 		},
 		"contacts": {
 			"description": "Контактная информация",
@@ -46,9 +48,10 @@
 				"website":{
 					"description": "Адрес веб-сайта",
 					"type":"string"
-				}
+				},
+				"required": ["address", "phone"]
 			},
-			"required": ["address", "phone"]
+			"required": ["content"]
 		},
 		"geo": {
 			"description": "Географические координаты",
@@ -62,11 +65,227 @@
 					"description": "Долгота",
 					"type":"number"
 				}
-			}
+			},
+			"required": ["content"]
 		},
 		"units": {
 			"description": "Подразделения",
-			"type":"array"
+			"type":"array",
+			"content": {
+				"items": {
+					"fullname": {
+						"description": "Полное наименование",
+						"type":"string"
+					},
+					"shortname": {
+						"description": "Краткое наименование",
+						"type":"string"
+					},
+					"head":	{
+						"description": "Руководитель",
+						"type":"object",
+						"content": {
+							"name": {
+								"description": "Фамилия, имя, отчество",
+								"type":"string"
+							},
+							"post": {
+								"description": "Должность",
+								"type":"string"
+							},
+							"required": ["name", "post"]
+						},
+						"required": ["content"]
+					},
+					"contacts": {
+						"description": "Контактная информация",
+						"type":"object",
+						"content": {
+							"address": {
+								"description": "Почтовый адрес",
+								"type":"string"
+							},
+							"phone": {
+								"description": "Телефон",
+								"type":"string"
+							},
+							"email": {
+								"description": "Адрес электронной почты",
+								"type":"string"
+							},
+							"website":{
+								"description": "Адрес веб-сайта",
+								"type":"string"
+							},
+							"required": ["address", "phone"]
+						},
+						"required": ["content"]
+					},
+					"geo": {
+						"description": "Географические координаты",
+						"type":"object",
+						"content": {
+							"latitude": {
+								"description": "Широта",
+								"type": "number"
+							},
+							"longitude": {
+								"description": "Долгота",
+								"type":"number"
+							}
+						},
+						"required": ["content"]
+					},
+					"units": {
+						"description": "Подразделения",
+						"type":"array",
+						"content": {
+							"items": {
+								"fullname": {
+									"description": "Полное наименование",
+									"type":"string"
+								},
+								"shortname": {
+									"description": "Краткое наименование",
+									"type":"string"
+								},
+								"head":	{
+									"description": "Руководитель",
+									"type":"object",
+									"content": {
+										"name": {
+											"description": "Фамилия, имя, отчество",
+											"type":"string"
+										},
+										"post": {
+											"description": "Должность",
+											"type":"string"
+										},
+										"required": ["name", "post"]
+									},
+									"required": ["content"]
+								},
+								"contacts": {
+									"description": "Контактная информация",
+									"type":"object",
+									"content": {
+										"address": {
+											"description": "Почтовый адрес",
+											"type":"string"
+										},
+										"phone": {
+											"description": "Телефон",
+											"type":"string"
+										},
+										"email": {
+											"description": "Адрес электронной почты",
+											"type":"string"
+										},
+										"website":{
+											"description": "Адрес веб-сайта",
+											"type":"string"
+										},
+										"required": ["address", "phone"]
+									},
+									"required": ["content"]
+								},
+								"geo": {
+									"description": "Географические координаты",
+									"type":"object",
+									"content": {
+										"latitude": {
+											"description": "Широта",
+											"type": "number"
+										},
+										"longitude": {
+											"description": "Долгота",
+											"type":"number"
+										}
+									},
+									"required": ["content"]
+								},
+								"units": {
+									"description": "Подразделения",
+									"type":"array",
+									"content": {
+										"items": {
+											"fullname": {
+												"description": "Полное наименование",
+												"type":"string"
+											},
+											"shortname": {
+												"description": "Краткое наименование",
+												"type":"string"
+											},
+											"head":	{
+												"description": "Руководитель",
+												"type":"object",
+												"content": {
+													"name": {
+														"description": "Фамилия, имя, отчество",
+														"type":"string"
+													},
+													"post": {
+														"description": "Должность",
+														"type":"string"
+													},
+													"required": ["name", "post"]
+												},
+												"required": ["content"]
+											},
+											"contacts": {
+												"description": "Контактная информация",
+												"type":"object",
+												"content": {
+													"address": {
+														"description": "Почтовый адрес",
+														"type":"string"
+													},
+													"phone": {
+														"description": "Телефон",
+														"type":"string"
+													},
+													"email": {
+														"description": "Адрес электронной почты",
+														"type":"string"
+													},
+													"website": {
+														"description": "Адрес веб-сайта",
+														"type":"string"
+													},
+													"required": ["address", "phone"]
+												},
+												"required": ["content"]
+											},
+											"geo": {
+												"description": "Географические координаты",
+												"type":"object",
+												"content": {
+													"latitude": {
+														"description": "Широта",
+														"type": "number"
+													},
+													"longitude": {
+														"description": "Долгота",
+														"type":"number"
+													}
+												},
+												"required": ["content"]
+											},
+											"required": ["fullname", "contacts"]
+										}
+									},
+									"required": ["content"]
+								},
+								"required": ["fullname", "contacts"]
+							}
+						},
+						"required": ["content"]
+					},
+					"required": ["fullname", "contacts"]
+				}
+			},
+			"required": ["content"]
 		},
 		"required": ["fullname", "contacts"]
 	}
