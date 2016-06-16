@@ -102,6 +102,7 @@
 
 		<?php
 			include 'inc/modals/modal_feedback.html';
+			include 'inc/cards.html';
 			include 'inc/footer.html';
 			include 'inc/scripts.html';
 		?>

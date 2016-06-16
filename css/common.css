@@ -22,6 +22,26 @@ a:hover {
 }
 
 
+header {
+	background-color: #504186;
+	background-image: url("../img/header.jpg");
+	background-position: 50% 50%;
+	height: 420px;
+	max-height: 420px;
+	text-align: center;
+	color: #fff;
+}
+
+	header a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	header a:hover {
+		color: #fff;
+		text-decoration: underline;
+	}
+
 
 
 .row {
@@ -163,6 +183,64 @@ table thead th {
 #full__parsed__data {
 	/* empty */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+
+}
+
+	.card__header {
+		overflow: hidden;
+	}
+
+		.card__header-image {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+
+	.card__body {
+
+	}
+
+		.card__body-headline {
+
+		}
+
+		.card__body-content {
+
+		}
+
+	.card__footer {
+
+	}
+
+		.card__footer-link {
+			text-transform: uppercase;
+		}
+
+
+
+
+
+
+
+
+
+
 
 
 
