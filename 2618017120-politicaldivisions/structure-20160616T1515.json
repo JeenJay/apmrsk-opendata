@@ -1,0 +1,144 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "Административно-территориальное деление Предгорного района",
+	"description": "Административно-территориальное деление Предгорного муниципального района Ставропольского края",
+	"type": "array",
+	"minitems": 15,
+	"items": {
+		"name": {
+			"description": "Наименование муниципального образования",
+			"type": "string"
+		},
+		"info": {
+			"description": "Общая информация",
+			"type": "object",
+			"content": {
+				"area": {
+					"description": "Площадь территории (кв. км)",
+					"type": "number"
+				}
+			}
+		},
+		"autonomy": {
+			"description": "Орган местного самоуправления",
+			"type": "object",
+			"content": {
+				"name": {
+					"description": "Наименование органа местного самоуправления",
+					"type": "string"
+				},
+				"contacts": {
+					"description": "Контактная информация",
+					"type": "object",
+					"content": {
+						"address": {
+							"description": "Адрес",
+							"type": "string"
+						},
+						"phone": {
+							"description": "Телефон",
+							"type": "string"
+						},
+						"email": {
+							"description": "Адрес электронной почты",
+							"type": "string"
+						},
+						"website": {
+							"description": "Адрес веб-сайта",
+							"type": "string"
+						},
+						"geo": {
+							"description": "Географические координаты",
+							"type": "object",
+							"content": {
+								"latitude": {
+									"description": "Широта",
+									"type": "number"
+								},
+								"longitude": {
+									"description": "Долгота",
+									"type": "number"
+								}
+							}
+						},
+						"required": ["address", "phone"]
+					},
+					"required": ["content"]
+				},
+				"schedule": {
+					"description": "Режим работы",
+					"type": "object",
+					"content": {
+						"working": {
+							"description": "Рабочие дни",
+							"type": "string"
+						},
+						"time": {
+							"description": "Время работы",
+							"type": "string"
+						},
+						"break": {
+							"description": "Время перерыва",
+							"type": "string"
+						},
+						"weekend": {
+							"description": "Выходные дни",
+							"type": "string"
+						},
+						"required": ["working", "time", "break"]
+					},
+					"required": ["content"]
+				},
+				"head": {
+					"description": "Руководитель",
+					"type": "object",
+					"content": {
+						"name": {
+							"description": "Фамилия, имя, отчество",
+							"type": "string"
+						},
+						"post": {
+							"description": "Должность",
+							"type": "string"
+						},
+						"required": ["name", "post"]
+					},
+					"required": ["content"]
+				},
+				"required": ["name", "contacts", "schedule", "head"]
+			},
+			"required": ["content"]
+		},
+		"settlements": {
+			"description": "Населённые пункты",
+			"type": "array",
+			"content": {
+				"name": {
+					"description": "Наименование населённого пункта",
+					"type": "string"
+				},
+				"population": {
+					"description": "Население (чел.)",
+					"type": "number"
+				},
+				"geo": {
+					"description": "Географические координаты",
+					"type": "object",
+					"content": {
+						"latitude": {
+							"description": "Широта",
+							"type": "number"
+						},
+						"longitude": {
+							"description": "Долгота",
+							"type": "number"
+						}
+					}
+				},
+				"required": ["name"]
+			},
+			"required": ["content"]
+		}
+	},
+	"required": ["name", "autonomy", "settlements"]
+}

@@ -11,16 +11,15 @@
 			"email": "admbekeshevka@yandex.ru",
 			"website": "http://www.бекешевская.рф",
 			"geo": {
-				"latitude": "44.116046",
-				"longitude": "42.422409"
+				"latitude": 44.116046,
+				"longitude": 42.422409
 			}
 		},
 		"schedule": {
 			"working": "понедельник-пятница",
 			"time": "08:00-17:00",
 			"break": "12:00-13:00",
-			"weekend": "суббота, воскресенье",
-			"reception": "0"
+			"weekend": "суббота, воскресенье"
 		},
 		"head": {
 			"name": "Остапенко Сергей Викторович",
@@ -29,10 +28,10 @@
 	},
 	"settlements": [{
 		"name": "станица Бекешевская",
-		"population": 0,
+		"population": 3038,
 		"geo": {
-			"latitude": "44.115568",
-			"longitude": "42.427882"
+			"latitude": 44.115568,
+			"longitude": 42.427882
 		}
 	}]
 },
@@ -50,16 +49,15 @@
 			"email": "adm@borgustanskaya.ru",
 			"website": "http://www.borgustanskaya.ru",
 			"geo": {
-				"latitude": "44.053098",
-				"longitude": "42.527890"
+				"latitude": 44.053098,
+				"longitude": 42.527890
 			}
 		},
 		"schedule": {
 			"working": "понедельник-пятница",
 			"time": "08:00-17:00",
 			"break": "12:00-13:00",
-			"weekend": "суббота-воскресенье",
-			"reception": "0"
+			"weekend": "суббота-воскресенье"
 		},
 		"head": {
 			"name": "Пономаренко Сергей Иванович",
@@ -68,10 +66,10 @@
 	},
 	"settlements": [{
 		"name": "станица Боргустанская",
-		"population": 0,
+		"population": 4031,
 		"geo": {
-			"latitude": "44.054064",
-			"longitude": "42.530225"
+			"latitude": 44.054064,
+			"longitude": 42.530225
 		}
 	}]
 },
@@ -89,16 +87,15 @@
 			"email": "admvinsady@mail.ru",
 			"website": "http://www.винсады.рф",
 			"geo": {
-				"latitude": "44.081584",
-				"longitude": "42.963510"
+				"latitude": 44.081584,
+				"longitude": 42.963510
 			}
 		},
 		"schedule": {
 			"working": "понедельник-пятница",
 			"time": "08:00-17:00",
 			"break": "12:00-13:00",
-			"weekend": "суббота-воскресенье",
-			"reception": "0"
+			"weekend": "суббота-воскресенье"
 		},
 		"head": {
 			"name": "Горбань Сергей Сергеевич",
@@ -107,10 +104,10 @@
 	},
 	"settlements": [{
 		"name": "село Винсады",
-		"population": 0,
+		"population": 9090,
 		"geo": {
-			"latitude": "44.078106",
-			"longitude": "42.965876"
+			"latitude": 44.078106,
+			"longitude": 42.965876
 		}
 	}]
 },
@@ -118,7 +115,7 @@
 {
 	"name": "Муниципальное образование Ессентукский сельсовет Предгорного района Ставропольского края",
 	"info": {
-		"area": 1932
+		"area": 0
 	},
 	"autonomy": {
 		"name": "Администрация муниципального образования Ессентукский сельсовет Предгорного района Ставропольского края",
@@ -128,16 +125,15 @@
 			"email": "deputat-sel@mail.ru",
 			"website": "http://www.portalkmv.ru",
 			"geo": {
-				"latitude": "44.030053",
-				"longitude": "42.874925"
+				"latitude": 44.030053,
+				"longitude": 42.874925
 			}
 		},
 		"schedule": {
 			"working": "понедельник-пятница",
 			"time": "08:00-17:00",
 			"break": "12:00-13:00",
-			"weekend": "суббота-воскресенье",
-			"reception": "0"
+			"weekend": "суббота-воскресенье"
 		},
 		"head": {
 			"name": "Яриков Сергей Владимирович",
@@ -146,17 +142,17 @@
 	},
 	"settlements": [{
 		"name": "станица Ессентукская",
-		"population": 21227,
+		"population": 20166,
 		"geo": {
-			"latitude": "44.029851",
-			"longitude": "42.874721"
+			"latitude": 44.029851,
+			"longitude": 42.874721
 		}
 	},{
 		"name": "посёлок Горный",
-		"population": 100,
+		"population": 995,
 		"geo": {
-			"latitude": "43.958459",
-			"longitude": "42.859804"
+			"latitude": 43.958459,
+			"longitude": 42.859804
 		}
 	}]
 },
@@ -174,16 +170,15 @@
 			"email": "mirnyiadm@mail.ru",
 			"website": "http://www.mirnyiadm.ru",
 			"geo": {
-				"latitude": "43.944886",
-				"longitude": "42.673262"
+				"latitude": 43.944886,
+				"longitude": 42.673262
 			}
 		},
 		"schedule": {
 			"working": "понедельник-пятница",
 			"time": "08:00-17:00",
 			"break": "12:00-13:00",
-			"weekend": "суббота-воскресенье",
-			"reception": "0"
+			"weekend": "суббота-воскресенье"
 		},
 		"head": {
 			"name": "Чипчиков Султангери Ануарович",
@@ -194,8 +189,8 @@
 		"name": "посёлок Мирный",
 		"population": 1870,
 		"geo": {
-			"latitude": "43.948189",
-			"longitude": "42.669750"
+			"latitude": 43.948189,
+			"longitude": 42.669750
 		}
 	}]
 },
@@ -203,7 +198,7 @@
 {
 	"name": "Муниципальное образование Нежинский сельсовет Предгорного района Ставропольского края",
 	"info": {
-		"area": 0
+		"area": 7.52
 	},
 	"autonomy": {
 		"name": "Администрация муниципального образования Нежинский сельсовет Предгорного района Ставропольского края",
@@ -213,16 +208,15 @@
 			"email": "nejinsky1@yandex.ru",
 			"website": "http://www.monejinsky.ru",
 			"geo": {
-				"latitude": "43.931962",
-				"longitude": "42.685702"
+				"latitude": 43.931962,
+				"longitude": 42.685702
 			}
 		},
 		"schedule": {
 			"working": "понедельник-пятница",
 			"time": "08:00-17:00",
 			"break": "12:00-13:00",
-			"weekend": "суббота-воскресенье",
-			"reception": "0"
+			"weekend": "суббота-воскресенье"
 		},
 		"head": {
 			"name": "Радченко Борис Викторович",
@@ -233,37 +227,37 @@
 		"name": "посёлок Нежинский",
 		"population": 3664,
 		"geo": {
-			"latitude": "43.929881",
-			"longitude": "42.688266"
+			"latitude": 43.929881,
+			"longitude": 42.688266
 		}
 	},{
 		"name": "посёлок Высокогорный",
 		"population": 101,
 		"geo": {
-			"latitude": "43.849583",
-			"longitude": "42.726633"
+			"latitude": 43.849583,
+			"longitude": 42.726633
 		}
 	},{
 
 		"name": "посёлок Левоберёзовский",
 		"population": 226,
 		"geo": {
-			"latitude": "43.867341",
-			"longitude": "42.662035"
+			"latitude": 43.867341,
+			"longitude": 42.662035
 		}
 	},{
 		"name": "посёлок Правоберёзовский",
 		"population": 116,
 		"geo": {
-			"latitude": "43.850377",
-			"longitude": "42.684672"
+			"latitude": 43.850377,
+			"longitude": 42.684672
 		}
 	},{
 		"name": "посёлок Садовая Долина",
 		"population": 202,
 		"geo": {
-			"latitude": "43.943027",
-			"longitude": "42.645174"
+			"latitude": 43.943027,
+			"longitude": 42.645174
 		}
 	}]
 },
@@ -271,7 +265,7 @@
 {
 	"name": "Муниципальное образование Новоблагодарненский сельсовет Предгорного района Ставропольского края",
 	"info": {
-		"area": 0
+		"area": 94.2
 	},
 	"autonomy": {
 		"name": "Администрация муниципального образования Новоблагодарненский сельсовет Предгорного района Ставропольского края",
@@ -281,16 +275,15 @@
 			"email": "admnov@inbox.ru",
 			"website": "http://www.новоблагодарненскийсельсовет.рф",
 			"geo": {
-				"latitude": "44.150090",
-				"longitude": "42.872437"
+				"latitude": 44.150090,
+				"longitude": 42.872437
 			}
 		},
 		"schedule": {
 			"working": "понедельник-пятница",
 			"time": "08:00-17:00",
 			"break": "12:00-13:00",
-			"weekend": "суббота-воскресенье",
-			"reception": "0"
+			"weekend": "суббота-воскресенье"
 		},
 		"head": {
 			"name": "Шкуро Юрий Борисович",
@@ -299,31 +292,31 @@
 	},
 	"settlements": [{
 		"name": "село Новоблагодарное",
-		"population": 0,
+		"population": 3263,
 		"geo": {
-			"latitude": "44.146493",
-			"longitude": "42.873700"
+			"latitude": 44.146493,
+			"longitude": 42.873700
 		}
 	},{
 		"name": "хутор Калаборка",
-		"population": 0,
+		"population": 395,
 		"geo": {
-			"latitude": "44.178124",
-			"longitude": "42.871804"
+			"latitude": 44.178124,
+			"longitude": 42.871804
 		}
 	},{
 		"name": "село Сунжа-Ворошиловка",
-		"population": 0,
+		"population": 154,
 		"geo": {
-			"latitude": "44.142473",
-			"longitude": "42.811196"
+			"latitude": 44.142473,
+			"longitude": 42.811196
 		}
 	},{
 		"name": "хутор Шести",
-		"population": 0,
+		"population": 104,
 		"geo": {
-			"latitude": "44.108231",
-			"longitude": "42.835310"
+			"latitude": 44.108231,
+			"longitude": 42.835310
 		}
 	}]
 },
@@ -341,16 +334,15 @@
 			"email": "podkumokadm@mail.ru",
 			"website": "http://www.podkumok-admin.ru",
 			"geo": {
-				"latitude": "43.964269",
-				"longitude": "42.773946"
+				"latitude": 43.964269,
+				"longitude": 42.773946
 			}
 		},
 		"schedule": {
 			"working": "понедельник-пятница",
 			"time": "08:00-17:00",
 			"break": "12:00-13:00",
-			"weekend": "суббота-воскресенье",
-			"reception": "0"
+			"weekend": "суббота-воскресенье"
 		},
 		"head": {
 			"name": "Рачинский Александр Леонидович",
@@ -361,22 +353,22 @@
 		"name": "посёлок Подкумок",
 		"population": 0,
 		"geo": {
-			"latitude": "43.964728",
-			"longitude": "42.769899"
+			"latitude": 43.964728,
+			"longitude": 42.769899
 		}
 	},{
 		"name": "посёлок Верхнеподкумский",
 		"population": 0,
 		"geo": {
-			"latitude": "43.990941",
-			"longitude": "42.752198"
+			"latitude": 43.990941,
+			"longitude": 42.752198
 		}
 	},{
 		"name": "хутор Томатный",
 		"population": 0,
 		"geo": {
-			"latitude": "44.045084",
-			"longitude": "42.776637"
+			"latitude": 44.045084,
+			"longitude": 42.776637
 		}
 	}]
 },
@@ -394,16 +386,15 @@
 			"email": "prigorod-kmv@rambler.ru",
 			"website": "http://www.пригородныйсельсовет.рф",
 			"geo": {
-				"latitude": "44.156876",
-				"longitude": "42.990935"
+				"latitude": 44.156876,
+				"longitude": 42.990935
 			}
 		},
 		"schedule": {
 			"working": "понедельник-пятница",
 			"time": "08:00-17:00",
 			"break": "12:00-13:00",
-			"weekend": "суббота-воскресенье",
-			"reception": "0"
+			"weekend": "суббота-воскресенье"
 		},
 		"head": {
 			"name": "Виноходова Светлана Сергеевна",
@@ -412,38 +403,38 @@
 	},
 	"settlements": [{
 		"name": "посёлок Железноводский",
-		"population": 0,
+		"population": 1710,
 		"geo": {
-			"latitude": "44.154326",
-			"longitude": "42.992035"
+			"latitude": 44.154326,
+			"longitude": 42.992035
 		}
 	},{
 		"name": "хутор Быкогорка",
-		"population": 0,
+		"population": 1189,
 		"geo": {
-			"latitude": "44.181985",
-			"longitude": "42.947178"
+			"latitude": 44.181985,
+			"longitude": 42.947178
 		}
 	},{
 		"name": "хутор Верблюдогорка",
-		"population": 0,
+		"population": 81,
 		"geo": {
-			"latitude": "44.186222",
-			"longitude": "42.885051"
+			"latitude": 44.186222,
+			"longitude": 42.885051
 		}
 	},{
 		"name": "хутор Воронов",
-		"population": 0,
+		"population": 339,
 		"geo": {
-			"latitude": "44.176726",
-			"longitude": "43.031067"
+			"latitude": 44.176726,
+			"longitude": 43.031067
 		}
 	},{
 		"name": "хутор Порт-Артур",
-		"population": 0,
+		"population": 100,
 		"geo": {
-			"latitude": "44.192369",
-			"longitude": "42.901383"
+			"latitude": 44.192369,
+			"longitude": 42.901383
 		}
 	}]
 },
@@ -461,16 +452,15 @@
 			"email": "amopss@yandex.ru",
 			"website": "http://www.пятигорскийсельсовет.рф",
 			"geo": {
-				"latitude": "43.972295",
-				"longitude": "43.259059"
+				"latitude": 43.972295,
+				"longitude": 43.259059
 			}
 		},
 		"schedule": {
 			"working": "понедельник-пятница",
 			"time": "08:00-17:00",
 			"break": "12:00-13:00",
-			"weekend": "суббота, воскресенье",
-			"reception": "0"
+			"weekend": "суббота, воскресенье"
 		},
 		"head": {
 			"name": "Рычагов Сергей Федорович",
@@ -479,38 +469,38 @@
 	},
 	"settlements": [{
 		"name": "посёлок Пятигорский",
-		"population": 0,
+		"population": 4916,
 		"geo": {
-			"latitude": "43.976452",
-			"longitude": "43.260641"
+			"latitude": 43.976452,
+			"longitude": 43.260641
 		}
 	},{
 		"name": "посёлок Верхнетамбуканский",
-		"population": 0,
+		"population": 482,
 		"geo": {
-			"latitude": "43.982114",
-			"longitude": "43.325338"
+			"latitude": 43.982114,
+			"longitude": 43.325338
 		}
 	},{
 		"name": "посёлок Зелёный",
-		"population": 0,
+		"population": 47,
 		"geo": {
-			"latitude": "43.956311",
-			"longitude": "43.230699"
+			"latitude": 43.956311,
+			"longitude": 43.230699
 		}
 	},{
 		"name": "посёлок Нижнеэтокский",
-		"population": 0,
+		"population": 381,
 		"geo": {
-			"latitude": "44.003428",
-			"longitude": "43.372391"
+			"latitude": 44.003428,
+			"longitude": 43.372391
 		}
 	},{
 		"name": "посёлок Родниковый",
-		"population": 0,
+		"population": 346,
 		"geo": {
-			"latitude": "43.972583",
-			"longitude": "43.291048"
+			"latitude": 43.972583,
+			"longitude": 43.291048
 		}
 	}]
 },
@@ -518,7 +508,7 @@
 {
 	"name": "Муниципальное образование Суворовский сельсовет Предгорного района Ставропольского края",
 	"info": {
-		"area": 3475
+		"area": 0
 	},
 	"autonomy": {
 		"name": "Администрация муниципального образования Суворовский сельсовет Предгорного района Ставропольского края",
@@ -526,18 +516,17 @@
 			"address": "357390, Ставропольский край, Предгорный район, станица Суворовская, улица Советская, 19",
 			"phone": "+7 87961 2-73-76",
 			"email": "admin-suvorovskaya@rambler.ru",
-			"website": "http://suvorovskaya-admin.ru",
+			"website": "http://www.suvorovskaya-admin.ru",
 			"geo": {
-				"latitude": "44.193395",
-				"longitude": "42.649361"
+				"latitude": 44.193395,
+				"longitude": 42.649361
 			}
 		},
 		"schedule": {
 			"working": "понедельник-пятница",
 			"time": "08:00-17:00",
 			"break": "12:00-13:00",
-			"weekend": "суббота, воскресенье",
-			"reception": "0"
+			"weekend": "суббота, воскресенье"
 		},
 		"head": {
 			"name": "Леонов Эдуард Алексеевич",
@@ -548,15 +537,15 @@
 		"name": "станица Суворовская",
 		"population": 18011,
 		"geo": {
-			"latitude": "44.194834",
-			"longitude": "42.648969"
+			"latitude": 44.194834,
+			"longitude": 42.648969
 		}
 	},{
 		"name": "село Свобода",
 		"population": 677,
 		"geo": {
-			"latitude": "44.154427",
-			"longitude": "42.765397"
+			"latitude": 44.154427,
+			"longitude": 42.765397
 		}
 	},{
 		"name": "хутор Сухоозёрный",
@@ -571,7 +560,7 @@
 {
 	"name": "Муниципальное образование Тельмановский сельсовет Предгорного района Ставропольского края",
 	"info": {
-		"area": 0
+		"area": 125.32
 	},
 	"autonomy": {
 		"name": "Администрация муниципального образования Тельмановский сельсовет Предгорного района Ставропольского края",
@@ -579,7 +568,7 @@
 			"address": "357360, Ставропольский край, Предгорный район, посёлок Санамер, улица Полевая, 20",
 			"phone": "+7 87961 6-74-86",
 			"email": "sanamer@list.ru",
-			"website": "",
+			"website": "http://www.тельмановский.рф",
 			"geo": {
 				"latitude": 44.074775,
 				"longitude": 42.860139
@@ -631,7 +620,7 @@
 {
 	"name": "Муниципальное образование Этокский сельсовет Предгорного района Ставропольского края",
 	"info": {
-		"area": 0
+		"area": 60
 	},
 	"autonomy": {
 		"name": "Администрация муниципального образования Этокский сельсовет Предгорного района Ставропольского края",
@@ -649,8 +638,7 @@
 			"working": "понедельник-пятница",
 			"time": "08:00-17:00",
 			"break": "12:00-13:00",
-			"weekend": "суббота, воскресенье",
-			"reception": "0"
+			"weekend": "суббота, воскресенье"
 		},
 		"head": {
 			"name": "Гладков Николай Иванович",
@@ -659,35 +647,35 @@
 	},
 	"settlements": [{
 		"name": "село Этока",
-		"population": 0,
+		"population": 2854,
 		"geo": {
 			"latitude": 43.914194,
 			"longitude": 43.060770
 		}
 	},{
 		"name": "посёлок Джуца",
-		"population": 0,
+		"population": 1095,
 		"geo": {
 			"latitude": 43.991750,
 			"longitude": 43.039862
 		}
 	},{
 		"name": "посёлок Песковский",
-		"population": 0,
+		"population": 150,
 		"geo": {
 			"latitude": 43.966071,
 			"longitude": 43.084012
 		}
 	},{
 		"name": "хутор Тамбукан",
-		"population": 0,
+		"population": 724,
 		"geo": {
 			"latitude": 43.929729,
 			"longitude": 43.139179
 		}
 	},{
 		"name": "хутор Хорошовский",
-		"population": 0,
+		"population": 675,
 		"geo": {
 			"latitude": 43.996591,
 			"longitude": 43.134823
@@ -716,12 +704,11 @@
 			"working": "понедельник-пятница",
 			"time": "08:00-17:00",
 			"break": "12:00-13:00",
-			"weekend": "суббота, воскресенье",
-			"reception": "0"
+			"weekend": "суббота, воскресенье"
 		},
 		"head": {
 			"name": "Конкина Наталья Викторовна",
-			"post": "Исполняющий обязанности главы муниципального образования"
+			"post": "Глава муниципального образования"
 		}
 	},
 	"settlements": [{
@@ -761,16 +748,15 @@
 			"email": "adm1n1straciy@mail.ru",
 			"website": "http://www.яснополянское.рф",
 			"geo": {
-				"latitude": "44.019458",
-				"longitude": "42.753051"
+				"latitude": 44.019458,
+				"longitude": 42.753051
 				}
 		},
 		"schedule": {
 			"working": "понедельник-пятница",
 			"time": "08:00-17:00",
 			"break": "12:00-13:00",
-			"weekend": "суббота, воскресенье",
-			"reception": "0"
+			"weekend": "суббота, воскресенье"
 		},
 		"head": {
 			"name": "Ефименко Алексей Семенович",
@@ -779,17 +765,17 @@
 	},
 	"settlements": [{
 		"name": "посёлок Ясная Поляна",
-		"population": "0",
+		"population": 0,
 		"geo": {
-			"latitude": "44.020524",
-			"longitude": "42.754838"
+			"latitude": 44.020524,
+			"longitude": 42.754838
 		}
 	},{
 		"name": "посёлок Боргустанские Горы",
-		"population": "0",
+		"population": 0,
 		"geo": {
-			"latitude": "44.003946",
-			"longitude": "42.585870"
+			"latitude": 44.003946,
+			"longitude": 42.585870
 		}
 	}]
 }]

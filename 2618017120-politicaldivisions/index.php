@@ -69,7 +69,10 @@
 								<tr>
 									<td>8.</td>
 									<td>Гиперсылка (URL) на набор</td>
-									<td><a href="http://opendata.predgor-ray.ru/2618017120-politicaldivisions/data-20160229T0000-structure-20160229T0000.json">data-20160229T0000-structure-20160229T0000.json</a></td>
+									<td>
+										<a href="http://opendata.predgor-ray.ru/2618017120-politicaldivisions/data-20160616T1514-structure-20160616T1515.json">data-20160616T1514-structure-20160616T1515.json</a><br>
+										<a href="http://opendata.predgor-ray.ru/2618017120-politicaldivisions/data-20160229T0000-structure-20160229T0000.json">data-20160229T0000-structure-20160229T0000.json</a>
+									</td>
 								</tr>
 								<tr>
 									<td>9.</td>
@@ -79,7 +82,10 @@
 								<tr>
 									<td>10.</td>
 									<td>Описание структуры набора данных</td>
-									<td><a href="http://opendata.predgor-ray.ru/2618017120-politicaldivisions/strucrure-20160229T0000.json">strucrure-20160229T0000.json</a></td>
+									<td>
+										<a href="http://opendata.predgor-ray.ru/2618017120-politicaldivisions/structure-20160616T1515.json">structure-20160616T1515.json</a><br>
+										<a href="http://opendata.predgor-ray.ru/2618017120-politicaldivisions/structure-20160229T0000.json">structure-20160229T0000.json</a>
+									</td>
 								</tr>
 								<tr>
 									<td>11.</td>
@@ -89,17 +95,17 @@
 								<tr>
 									<td>12.</td>
 									<td>Дата последнего внесения изменений</td>
-									<td property="dc:modified" content="2016-02-29T00:00:00">29.02.2016</td>
+									<td property="dc:modified" content="2016-06-16">16.06.2016</td>
 								</tr>
 								<tr>
 									<td>13.</td>
 									<td>Содержание последнего изменения</td>
-									<td>Первичная публикация</td>
+									<td>Обновление набора</td>
 								</tr>
 								<tr>
 									<td>14.</td>
 									<td>Периодичность актуализации набора данных</td>
-									<td property="dc:valid" content="2016-02-29T00:00:00">По мере изменений</td>
+									<td property="dc:valid" content="2016-06-16">По мере изменений</td>
 								</tr>
 								<tr>
 									<td>15.</td>
@@ -122,23 +128,43 @@
 					</div><!-- /.table-responsive -->
 
 					<div typeof="dc:Collection" about="#data">
+
+						<div rel="dc:hasPart" resource="#data-20160616T1514">
+							<div typeof="foaf:Document" about="#data-20160616T1514">
+								<div property="dc:source" content="http://opendata.predgor-ray.ru/2618017120-politicaldivisions/data-20160616T1514-structure-20160616T1515.json"></div>
+								<div property="dc:created" content="2016-06-16"></div>
+								<div property="dc:provenance" content="Обновление набора"></div>
+								<div rel="dc:conformsTo" resource="#structure-20160616T1515"></div>
+							</div>
+						</div>
+
 						<div rel="dc:hasPart" resource="#data-20160229T0000">
 							<div typeof="foaf:Document" about="#data-20160229T0000">
 								<div property="dc:source" content="http://opendata.predgor-ray.ru/2618017120-politicaldivisions/data-20160229T0000-structure-20160229T0000.json"></div>
 								<div property="dc:created" content="2016-02-29"></div>
-								<div property="dc:provenance" content="Исправлены незначительные ошибки"></div>
-								<div rel="dc:conformsTo" resource="#structure-20130401T0000"></div>
+								<div property="dc:provenance" content="Первичная публикация"></div>
+								<div rel="dc:conformsTo" resource="#structure-20160101T0000"></div>
 							</div>
 						</div>
+
 					</div>
 
 					<div typeof="dc:Collection" about="#strucrure">
-						<div rel="dc:hasPart" resource="#strucrure-20160229T0000">
-							<div typeof="foaf:Document" about="#strucrure-20160229T0000">
-								<div property="dc:source" content="http://opendata.predgor-ray.ru/2618017120-politicaldivisions/strucrure-20160229T0000.json"></div>
+
+						<div rel="dc:hasPart" resource="#structure-20160616T1515">
+							<div typeof="foaf:Document" about="#structure-20160616T1515">
+								<div property="dc:source" content="http://opendata.predgor-ray.ru/2618017120-politicaldivisions/structure-20160616T1515.json"></div>
+								<div property="dc:created" content="2016-06-16"></div>
+							</div>
+						</div>
+
+						<div rel="dc:hasPart" resource="#structure-20160229T0000">
+							<div typeof="foaf:Document" about="#structure-20160229T0000">
+								<div property="dc:source" content="http://opendata.predgor-ray.ru/2618017120-politicaldivisions/structure-20160229T0000.json"></div>
 								<div property="dc:created" content="2016-02-29"></div>
 							</div>
 						</div>
+
 					</div>
 
 				</div><!-- /.col -->
