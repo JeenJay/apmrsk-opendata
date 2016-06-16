@@ -43,8 +43,8 @@
 		<![endif]-->
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="/css/bootstrap.min.css?v=3.3.6">
-		<link rel="stylesheet" href="/css/common.css?v=1.0.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/css/common.css?v=1.0.1">
 
 		<title>Открытые данные администрации Предгорного муниципального района Ставропольского края</title>
 
