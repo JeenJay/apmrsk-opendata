@@ -1,3 +1,11 @@
+<?php
+
+	define('SITE_ROOT', str_replace('\\', '/', $_SERVER['DOCUMENT_ROOT']) . '/'); 
+	require_once(SITE_ROOT."db_connect.php");
+
+?>
+
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" version="XHTML+RDFa 1.0" dir="ltr" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
@@ -42,8 +50,9 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://use.fontawesome.com/2e60bcf680.js"></script>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/css/common.css?v=1.0.1">
 
 		<title>Открытые данные администрации Предгорного муниципального района Ставропольского края</title>
